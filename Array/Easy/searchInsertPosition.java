@@ -7,3 +7,7 @@ class Solution {
         return -999;
     }
 }
+//we iterate through each element in array 
+//if the target value found in array 
+//return its index 
+//otherwise retuen -999
