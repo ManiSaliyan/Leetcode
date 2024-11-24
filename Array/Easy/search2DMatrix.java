@@ -4,7 +4,7 @@ class Solution {
         int n = matrix.length;
         int found=0;
         for(i=0;i<n;i++){
-            for(j=0;j<n;j++){
+            for(j=0;j<matrix[i].length;j++){
                 if(matrix[i][j]==target) found =1;
             }
         }
